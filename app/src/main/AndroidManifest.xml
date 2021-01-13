@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smallprojecticha">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".no5_konversi"></activity>
+        <activity android:name=".no4_tabung" />
+        <activity android:name=".no4_bola" />
+        <activity android:name=".no4_bangun_ruang" />
+        <activity android:name=".no4_balok" />
+        <activity android:name=".no3_segitiga" />
+        <activity android:name=".no3_persegi" />
+        <activity android:name=".no3_lingkaran">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".no3_bangun_datar" />
+        <activity android:name=".no2_nilai_akhir" />
+        <activity android:name=".no1_hasil" />
+        <activity android:name=".no1_berat_badan" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

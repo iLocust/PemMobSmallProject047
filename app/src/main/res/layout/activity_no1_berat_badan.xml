@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".no1_berat_badan">
+    <EditText
+        android:padding="10dp"
+        android:id="@+id/edit_text_nama"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nama"
+        android:inputType="textPersonName"
+        android:background="#E0E0E0"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:padding="10dp"
+        android:id="@+id/edit_text_bb"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Berat Badan(kg)"
+        android:inputType="numberDecimal"
+        android:background="#E0E0E0"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:padding="10dp"
+        android:id="@+id/edit_text_tb"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Tinggi Badan(cm)"
+        android:inputType="numberDecimal"
+        android:background="#E0E0E0"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FFFFFF"
+        android:onClick="cekHasil"
+        android:text="Cek Hasil"
+        android:textColor="#000000" />
+
+</LinearLayout>

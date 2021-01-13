@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".no4_bola">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="jari- jari"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edt_jari_bola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Jari Jari"
+        android:inputType="numberDecimal" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_hitung_luas_bola"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:onClick="hitung_luas"
+            android:text="Luas Permukaan" />
+
+        <Button
+            android:id="@+id/btn_hitung_volume_bola"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:onClick="hitung_volume"
+            android:text="Volume" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_hasil_bola"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:lines="2"
+        android:text="Hasil"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+</LinearLayout>
